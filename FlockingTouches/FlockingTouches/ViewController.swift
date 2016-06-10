@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     var pathGoal: GKGoal!
 
     var updateTimer: NSTimer!
-    let timeInterval = NSTimeInterval(0.05)
+    let timeInterval = NSTimeInterval(0.003)
     
     let separationRadius: Float =  0.553 * 50;
     let separationAngle: Float  = 3 * Float(M_PI) / 4.0;
@@ -85,19 +85,19 @@ class ViewController: UIViewController {
         
         let path = GKPath(points: UnsafeMutablePointer(points), count: 16, radius: 20, cyclical: true)
         
-//        let bPath = UIBezierPath()
-//        bPath.moveToPoint(CGPoint(x: CGFloat(points[0].x), y: CGFloat(points[0].y)))
-//        for point in points {
-//            bPath.addLineToPoint(CGPoint(x: CGFloat(point.x), y: CGFloat(point.y)))
-//        }
-//        bPath.closePath()
-//        
-//        let shapeLayer = CAShapeLayer()
-//        shapeLayer.path = bPath.CGPath
-//        shapeLayer.strokeColor = UIColor.grayColor().CGColor
-//        shapeLayer.lineWidth = 3.0
-//        shapeLayer.fillColor = UIColor.clearColor().CGColor
-//        view.layer.addSublayer(shapeLayer)
+        let bPath = UIBezierPath()
+        bPath.moveToPoint(CGPoint(x: CGFloat(points[0].x), y: CGFloat(points[0].y)))
+        for point in points {
+            bPath.addLineToPoint(CGPoint(x: CGFloat(point.x), y: CGFloat(point.y)))
+        }
+        bPath.closePath()
+        
+        let shapeLayer = CAShapeLayer()
+        shapeLayer.path = bPath.CGPath
+        shapeLayer.strokeColor = UIColor.grayColor().CGColor
+        shapeLayer.lineWidth = 3.0
+        shapeLayer.fillColor = UIColor.clearColor().CGColor
+        view.layer.addSublayer(shapeLayer)
         
         let behaviour = GKBehavior()
         let agents = agentSystem.components as! [GKAgent2D]
