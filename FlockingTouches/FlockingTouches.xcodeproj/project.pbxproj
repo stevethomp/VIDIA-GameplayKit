@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74738CAB1D07768000625EA6 /* fez.gif in Resources */ = {isa = PBXBuildFile; fileRef = 74738CAA1D07768000625EA6 /* fez.gif */; };
+		74738CAF1D07774C00625EA6 /* UIImage+animatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 74738CAE1D07774C00625EA6 /* UIImage+animatedGIF.m */; };
+		74738CB11D07776700625EA6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74738CB01D07776700625EA6 /* ImageIO.framework */; };
+		74D5CB501D06683A00E5A10A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5CB4F1D06683A00E5A10A /* AppDelegate.swift */; };
+		74D5CB521D06683A00E5A10A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5CB511D06683A00E5A10A /* ViewController.swift */; };
+		74D5CB551D06683A00E5A10A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D5CB531D06683A00E5A10A /* Main.storyboard */; };
+		74D5CB571D06683A00E5A10A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74D5CB561D06683A00E5A10A /* Assets.xcassets */; };
+		74D5CB5A1D06683A00E5A10A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74D5CB581D06683A00E5A10A /* LaunchScreen.storyboard */; };
+		74D5CB621D0668B700E5A10A /* FlockingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D5CB611D0668B700E5A10A /* FlockingView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74738CAA1D07768000625EA6 /* fez.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fez.gif; sourceTree = "<group>"; };
+		74738CAC1D07774B00625EA6 /* FlockingTouches-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlockingTouches-Bridging-Header.h"; sourceTree = "<group>"; };
+		74738CAD1D07774C00625EA6 /* UIImage+animatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+animatedGIF.h"; sourceTree = "<group>"; };
+		74738CAE1D07774C00625EA6 /* UIImage+animatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+animatedGIF.m"; sourceTree = "<group>"; };
+		74738CB01D07776700625EA6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		74D5CB4C1D06683A00E5A10A /* FlockingTouches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlockingTouches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74D5CB4F1D06683A00E5A10A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74D5CB511D06683A00E5A10A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74D5CB541D06683A00E5A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74D5CB561D06683A00E5A10A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74D5CB591D06683A00E5A10A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74D5CB5B1D06683A00E5A10A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74D5CB611D0668B700E5A10A /* FlockingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlockingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74D5CB491D06683A00E5A10A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74738CB11D07776700625EA6 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74D5CB431D06683A00E5A10A = {
+			isa = PBXGroup;
+			children = (
+				74738CB01D07776700625EA6 /* ImageIO.framework */,
+				74D5CB4E1D06683A00E5A10A /* FlockingTouches */,
+				74D5CB4D1D06683A00E5A10A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74D5CB4D1D06683A00E5A10A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74D5CB4C1D06683A00E5A10A /* FlockingTouches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74D5CB4E1D06683A00E5A10A /* FlockingTouches */ = {
+			isa = PBXGroup;
+			children = (
+				74D5CB4F1D06683A00E5A10A /* AppDelegate.swift */,
+				74D5CB511D06683A00E5A10A /* ViewController.swift */,
+				74D5CB611D0668B700E5A10A /* FlockingView.swift */,
+				74D5CB531D06683A00E5A10A /* Main.storyboard */,
+				74738CAC1D07774B00625EA6 /* FlockingTouches-Bridging-Header.h */,
+				74738CAD1D07774C00625EA6 /* UIImage+animatedGIF.h */,
+				74738CAE1D07774C00625EA6 /* UIImage+animatedGIF.m */,
+				74D5CB561D06683A00E5A10A /* Assets.xcassets */,
+				74D5CB581D06683A00E5A10A /* LaunchScreen.storyboard */,
+				74D5CB5B1D06683A00E5A10A /* Info.plist */,
+				74738CAA1D07768000625EA6 /* fez.gif */,
+			);
+			path = FlockingTouches;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74D5CB4B1D06683A00E5A10A /* FlockingTouches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74D5CB5E1D06683A00E5A10A /* Build configuration list for PBXNativeTarget "FlockingTouches" */;
+			buildPhases = (
+				74D5CB481D06683A00E5A10A /* Sources */,
+				74D5CB491D06683A00E5A10A /* Frameworks */,
+				74D5CB4A1D06683A00E5A10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlockingTouches;
+			productName = FlockingTouches;
+			productReference = 74D5CB4C1D06683A00E5A10A /* FlockingTouches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74D5CB441D06683A00E5A10A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = stevethomp;
+				TargetAttributes = {
+					74D5CB4B1D06683A00E5A10A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 5NEBCQB5S3;
+					};
+				};
+			};
+			buildConfigurationList = 74D5CB471D06683A00E5A10A /* Build configuration list for PBXProject "FlockingTouches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74D5CB431D06683A00E5A10A;
+			productRefGroup = 74D5CB4D1D06683A00E5A10A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74D5CB4B1D06683A00E5A10A /* FlockingTouches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74D5CB4A1D06683A00E5A10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74738CAB1D07768000625EA6 /* fez.gif in Resources */,
+				74D5CB5A1D06683A00E5A10A /* LaunchScreen.storyboard in Resources */,
+				74D5CB571D06683A00E5A10A /* Assets.xcassets in Resources */,
+				74D5CB551D06683A00E5A10A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74D5CB481D06683A00E5A10A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D5CB521D06683A00E5A10A /* ViewController.swift in Sources */,
+				74738CAF1D07774C00625EA6 /* UIImage+animatedGIF.m in Sources */,
+				74D5CB621D0668B700E5A10A /* FlockingView.swift in Sources */,
+				74D5CB501D06683A00E5A10A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74D5CB531D06683A00E5A10A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74D5CB541D06683A00E5A10A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74D5CB581D06683A00E5A10A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74D5CB591D06683A00E5A10A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74D5CB5C1D06683A00E5A10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74D5CB5D1D06683A00E5A10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74D5CB5F1D06683A00E5A10A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FlockingTouches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stevethomp.FlockingTouches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlockingTouches/FlockingTouches-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74D5CB601D06683A00E5A10A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = FlockingTouches/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stevethomp.FlockingTouches;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlockingTouches/FlockingTouches-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74D5CB471D06683A00E5A10A /* Build configuration list for PBXProject "FlockingTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D5CB5C1D06683A00E5A10A /* Debug */,
+				74D5CB5D1D06683A00E5A10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74D5CB5E1D06683A00E5A10A /* Build configuration list for PBXNativeTarget "FlockingTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74D5CB5F1D06683A00E5A10A /* Debug */,
+				74D5CB601D06683A00E5A10A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74D5CB441D06683A00E5A10A /* Project object */;
+}
